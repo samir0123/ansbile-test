@@ -1,0 +1,9 @@
+---
+- name: Check connectivity
+  hosts: client1
+  
+  tasks:
+
+  - name: Ping all nodes
+    ansible.builtin.ping:
+
